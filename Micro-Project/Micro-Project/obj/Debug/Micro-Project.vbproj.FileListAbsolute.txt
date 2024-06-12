@@ -1,0 +1,60 @@
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\bin\Debug\Micro-Project.exe.config
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\bin\Debug\Micro-Project.exe
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\bin\Debug\Micro-Project.pdb
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\bin\Debug\Micro-Project.xml
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\obj\Debug\Micro_Project.Form1.resources
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\obj\Debug\Micro_Project.Resources.resources
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\obj\Debug\Micro-Project.vbproj.GenerateResource.Cache
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\obj\Debug\Micro-Project.exe
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\obj\Debug\Micro-Project.xml
+C:\Users\ARISHA\AppData\Local\Temporary Projects\Micro-Project\obj\Debug\Micro-Project.pdb
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\Micro-Project.exe.config
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro-Project.exe
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro-Project.xml
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro-Project.pdb
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\Micro-Project.exe
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\Micro-Project.pdb
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\Micro-Project.xml
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Home.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Resources.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro-Project.vbproj.GenerateResource.Cache
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\RESULT.mdb
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.R1.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.R2.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.R3.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.R4.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.R5.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.h.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\STUDENT.mdb
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Student.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std1.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std2.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std10.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std3.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std4.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std5.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std6.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std7.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std8.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Std9.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Result.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Login.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.StaffInfo.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\TeachingStaff.mdb
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Complaint.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Feedback.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Resultstud.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.FeesPayment.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.TeachingStaff.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.NonTS.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\NonTeachingStaff.mdb
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.Fees.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro_Project.BlackList.resources
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\Micro-Project.exe.manifest
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\bin\Debug\Micro-Project.application
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro-Project.exe.manifest
+C:\Users\ARISHA\Documents\Visual Studio 2012\Projects\Micro-Project\Micro-Project\obj\Debug\Micro-Project.application
+C:\Users\ARISHA\OneDrive\Documents\ALL EXP & MP OF SEM 3 & 4\SEM 4 EXP & MP\SEM 4 ALL MP\GAD MP\Micro-Project\Micro-Project\bin\Debug\Micro-Project.exe.config
+C:\Users\ARISHA\OneDrive\Documents\ALL EXP & MP OF SEM 3 & 4\SEM 4 EXP & MP\SEM 4 ALL MP\GAD MP\Micro-Project\Micro-Project\obj\Debug\Micro-Project.exe
+C:\Users\ARISHA\OneDrive\Documents\ALL EXP & MP OF SEM 3 & 4\SEM 4 EXP & MP\SEM 4 ALL MP\GAD MP\Micro-Project\Micro-Project\obj\Debug\Micro-Project.xml
+C:\Users\ARISHA\OneDrive\Documents\ALL EXP & MP OF SEM 3 & 4\SEM 4 EXP & MP\SEM 4 ALL MP\GAD MP\Micro-Project\Micro-Project\obj\Debug\Micro-Project.pdb

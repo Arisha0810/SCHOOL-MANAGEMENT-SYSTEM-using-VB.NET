@@ -1,0 +1,1688 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Micro-Project
+</name>
+</assembly>
+<members>
+<member name="T:Micro_Project.RESULTDataSet.resultsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet.resultsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet.resultsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSetTableAdapters.resultsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.RESULTDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.RESULTDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.RESULTDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSetTableAdapters.TableAdapterManager.UpdateAll(Micro_Project.RESULTDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IIIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IVDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.std_IXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VIIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VIIIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.std_XDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IIIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IVRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.std_IXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VIIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VIIIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.std_XRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IIIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_IVRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.std_IXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VIIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.Std_VIIIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet.std_XRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.Std_ITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.Std_IITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.Std_IIITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.Std_IVTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.std_IXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.Std_VTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.Std_VITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.Std_VIITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.Std_VIIITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.std_XTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSetTableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet3.resultsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet3.resultsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet3.resultsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet3TableAdapters.resultsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.RESULTDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.RESULTDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.RESULTDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet3TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.RESULTDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet6.resultsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet6.resultsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet6.resultsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet6TableAdapters.resultsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.RESULTDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.RESULTDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.RESULTDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet6TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.RESULTDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet10.Std_IVDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet10.Std_IVRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet10.Std_IVRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet10">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet10TableAdapters.Std_IVTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet10TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet10)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet10TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet13.Std_VIIIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet13.Std_VIIIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet13.Std_VIIIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet13">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet13TableAdapters.Std_VIIITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet13TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet13)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet13TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet2.Std_IIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet2.Std_IIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet2.Std_IIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet2TableAdapters.Std_IITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet2TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet2.DataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet2.DataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet2.DataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet2TableAdapters.DataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet2TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet5.Std_IIIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet5.Std_IIIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet5.Std_IIIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet5TableAdapters.Std_IIITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet5TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet8.Std_IIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet8.Std_IIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet8.Std_IIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet8TableAdapters.Std_IITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet8TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.NonTeachingStaffDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet2.resultsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet2.resultsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet2.resultsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet2TableAdapters.resultsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.RESULTDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.RESULTDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.RESULTDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet2TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.RESULTDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet5.resultsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet5.resultsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet5.resultsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet5TableAdapters.resultsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.RESULTDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.RESULTDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.RESULTDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet5TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.RESULTDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet12.Std_VIIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet12.Std_VIIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet12.Std_VIIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet12">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet12TableAdapters.Std_VIITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet12TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet12)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet12TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet15.std_XDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet15.std_XRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet15.std_XRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet15">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet15TableAdapters.std_XTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet15TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet15)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet15TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet.TSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet.TSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet.TSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSetTableAdapters.TSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.TeachingStaffDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.TeachingStaffDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.TeachingStaffDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSetTableAdapters.TableAdapterManager.UpdateAll(Micro_Project.TeachingStaffDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet1.Std_IDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet1.Std_IRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet1.Std_IRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet1TableAdapters.Std_ITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet1TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet4.DataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet4.DataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet4.DataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet4TableAdapters.DataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet4TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet7.Std_IVDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet7.Std_IVRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet7.Std_IVRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet7TableAdapters.Std_IVTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet7TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet1.Std_IDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet1.Std_IRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet1.Std_IRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet1TableAdapters.Std_ITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDDataSet1TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.NonTeachingStaffDataSet1.NTSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.NonTeachingStaffDataSet1.NTSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.NonTeachingStaffDataSet1.NTSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.NonTeachingStaffDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.NonTeachingStaffDataSet1TableAdapters.NTSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.NonTeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.NonTeachingStaffDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.NonTeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.NonTeachingStaffDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.NonTeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.NonTeachingStaffDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.NonTeachingStaffDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.NonTeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.NonTeachingStaffDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.NonTeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.NonTeachingStaffDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.NonTeachingStaffDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet1.TSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet1.TSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet1.TSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet1TableAdapters.TSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.TeachingStaffDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.TeachingStaffDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.TeachingStaffDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.TeachingStaffDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet4.TSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet4.TSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet4.TSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet4TableAdapters.TSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.TeachingStaffDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.TeachingStaffDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.TeachingStaffDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.TeachingStaffDataSet4TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.TeachingStaffDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.TeachingStaffDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet1.resultsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet1.resultsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet1.resultsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet1TableAdapters.resultsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.RESULTDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.RESULTDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.RESULTDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet1TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.RESULTDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet4.resultsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet4.resultsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet4.resultsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet4TableAdapters.resultsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.RESULTDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.RESULTDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.RESULTDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.RESULTDataSet4TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.RESULTDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.RESULTDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Micro_Project.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Micro_Project.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Micro_Project.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet11.Std_VIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet11.Std_VIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet11.Std_VIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet11">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet11TableAdapters.Std_VITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet11TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet11)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet11TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet14.std_IXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet14.std_IXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet14.std_IXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet14">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet14TableAdapters.std_IXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet14TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet14)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet14TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet3.DataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet3.DataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet3.DataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet3TableAdapters.DataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet3TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet6.Std_IDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet6.Std_IRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet6.Std_IRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet6TableAdapters.Std_ITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet6TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet9.Std_VDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet9.Std_VRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet9.Std_VRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet9TableAdapters.Std_VTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(Micro_Project.STUDENTDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(Micro_Project.STUDENTDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(Micro_Project.STUDENTDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Micro_Project.STUDENTDataSet9TableAdapters.TableAdapterManager.UpdateAll(Micro_Project.STUDENTDataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Micro_Project.STUDENTDataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

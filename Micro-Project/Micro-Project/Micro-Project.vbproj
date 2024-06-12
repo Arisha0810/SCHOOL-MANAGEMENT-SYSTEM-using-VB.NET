@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F164570-64CD-447B-BEF1-1CB534412458}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Micro_Project.My.MyApplication</StartupObject>
+    <RootNamespace>Micro_Project</RootNamespace>
+    <AssemblyName>Micro-Project</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Micro-Project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Micro-Project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>a.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5CE86E6EF1A774CDCA1BEF8EBC21DA88198FA0EE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Micro-Project_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlackList.Designer.vb">
+      <DependentUpon>BlackList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BlackList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complaint.designer.vb">
+      <DependentUpon>Complaint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Complaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedback.designer.vb">
+      <DependentUpon>Feedback.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fees.Designer.vb">
+      <DependentUpon>Fees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeesPayment.Designer.vb">
+      <DependentUpon>FeesPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FeesPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NonTeachingStaffDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NonTeachingStaffDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NonTeachingStaffDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NonTeachingStaffDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NonTS.Designer.vb">
+      <DependentUpon>NonTS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NonTS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultstud.Designer.vb">
+      <DependentUpon>Resultstud.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resultstud.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffInfo.Designer.vb">
+      <DependentUpon>StaffInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StaffInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Std10.Designer.vb">
+      <DependentUpon>Std10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Std2.Designer.vb">
+      <DependentUpon>Std2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Std3.Designer.vb">
+      <DependentUpon>Std3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Std4.Designer.vb">
+      <DependentUpon>Std4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Std5.Designer.vb">
+      <DependentUpon>Std5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Std6.Designer.vb">
+      <DependentUpon>Std6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Std7.Designer.vb">
+      <DependentUpon>Std7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Std8.Designer.vb">
+      <DependentUpon>Std8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Std9.Designer.vb">
+      <DependentUpon>Std9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Student.Designer.vb">
+      <DependentUpon>Student.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="h.Designer.vb">
+      <DependentUpon>h.vb</DependentUpon>
+    </Compile>
+    <Compile Include="h.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Result.designer.vb">
+      <DependentUpon>Result.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Result.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R1.Designer.vb">
+      <DependentUpon>R1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="R1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R2.Designer.vb">
+      <DependentUpon>R2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="R2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R3.Designer.vb">
+      <DependentUpon>R3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="R3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R4.Designer.vb">
+      <DependentUpon>R4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="R4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R5.Designer.vb">
+      <DependentUpon>R5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="R5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RESULTDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RESULTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RESULTDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RESULTDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RESULTDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RESULTDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RESULTDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RESULTDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RESULTDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RESULTDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RESULTDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RESULTDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RESULTDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RESULTDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Std1.Designer.vb">
+      <DependentUpon>Std1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Std1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENTDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENTDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STUDENTDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TeachingStaff.Designer.vb">
+      <DependentUpon>TeachingStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TeachingStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeachingStaffDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TeachingStaffDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TeachingStaffDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TeachingStaffDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TeachingStaffDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TeachingStaffDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TeachingStaffDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TeachingStaffDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TeachingStaffDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TeachingStaffDataSet4.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BlackList.resx">
+      <DependentUpon>BlackList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complaint.resx">
+      <DependentUpon>Complaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedback.resx">
+      <DependentUpon>Feedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fees.resx">
+      <DependentUpon>Fees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeesPayment.resx">
+      <DependentUpon>FeesPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NonTS.resx">
+      <DependentUpon>NonTS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resultstud.resx">
+      <DependentUpon>Resultstud.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffInfo.resx">
+      <DependentUpon>StaffInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std10.resx">
+      <DependentUpon>Std10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std2.resx">
+      <DependentUpon>Std2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std3.resx">
+      <DependentUpon>Std3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std4.resx">
+      <DependentUpon>Std4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std5.resx">
+      <DependentUpon>Std5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std6.resx">
+      <DependentUpon>Std6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std7.resx">
+      <DependentUpon>Std7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std8.resx">
+      <DependentUpon>Std8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std9.resx">
+      <DependentUpon>Std9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student.resx">
+      <DependentUpon>Student.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="h.resx">
+      <DependentUpon>h.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Result.resx">
+      <DependentUpon>Result.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R1.resx">
+      <DependentUpon>R1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R2.resx">
+      <DependentUpon>R2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R3.resx">
+      <DependentUpon>R3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R4.resx">
+      <DependentUpon>R4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R5.resx">
+      <DependentUpon>R5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Std1.resx">
+      <DependentUpon>Std1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeachingStaff.resx">
+      <DependentUpon>TeachingStaff.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Micro-Project_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="NonTeachingStaffDataSet.xsc">
+      <DependentUpon>NonTeachingStaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NonTeachingStaffDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NonTeachingStaffDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NonTeachingStaffDataSet.xss">
+      <DependentUpon>NonTeachingStaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NonTeachingStaffDataSet1.xsc">
+      <DependentUpon>NonTeachingStaffDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="NonTeachingStaffDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NonTeachingStaffDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NonTeachingStaffDataSet1.xss">
+      <DependentUpon>NonTeachingStaffDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet.xsc">
+      <DependentUpon>RESULTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RESULTDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RESULTDataSet.xss">
+      <DependentUpon>RESULTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet1.xsc">
+      <DependentUpon>RESULTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RESULTDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RESULTDataSet1.xss">
+      <DependentUpon>RESULTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet2.xsc">
+      <DependentUpon>RESULTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RESULTDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RESULTDataSet2.xss">
+      <DependentUpon>RESULTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet3.xsc">
+      <DependentUpon>RESULTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RESULTDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RESULTDataSet3.xss">
+      <DependentUpon>RESULTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet4.xsc">
+      <DependentUpon>RESULTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RESULTDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RESULTDataSet4.xss">
+      <DependentUpon>RESULTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet5.xsc">
+      <DependentUpon>RESULTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RESULTDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RESULTDataSet5.xss">
+      <DependentUpon>RESULTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet6.xsc">
+      <DependentUpon>RESULTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="RESULTDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RESULTDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RESULTDataSet6.xss">
+      <DependentUpon>RESULTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="STUDDataSet1.xsc">
+      <DependentUpon>STUDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="STUDDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDDataSet1.xss">
+      <DependentUpon>STUDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="STUDDataSet2.xsc">
+      <DependentUpon>STUDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="STUDDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDDataSet2.xss">
+      <DependentUpon>STUDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet.xsc">
+      <DependentUpon>STUDENTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet.xss">
+      <DependentUpon>STUDENTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet1.xsc">
+      <DependentUpon>STUDENTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet1.xss">
+      <DependentUpon>STUDENTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet10.xsc">
+      <DependentUpon>STUDENTDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet10.xss">
+      <DependentUpon>STUDENTDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet11.xsc">
+      <DependentUpon>STUDENTDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet11.xss">
+      <DependentUpon>STUDENTDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet12.xsc">
+      <DependentUpon>STUDENTDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet12.xss">
+      <DependentUpon>STUDENTDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet13.xsc">
+      <DependentUpon>STUDENTDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet13.xss">
+      <DependentUpon>STUDENTDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet14.xsc">
+      <DependentUpon>STUDENTDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet14.xss">
+      <DependentUpon>STUDENTDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet15.xsc">
+      <DependentUpon>STUDENTDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet15.xss">
+      <DependentUpon>STUDENTDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet2.xsc">
+      <DependentUpon>STUDENTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet2.xss">
+      <DependentUpon>STUDENTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet3.xsc">
+      <DependentUpon>STUDENTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet3.xss">
+      <DependentUpon>STUDENTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet4.xsc">
+      <DependentUpon>STUDENTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet4.xss">
+      <DependentUpon>STUDENTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet5.xsc">
+      <DependentUpon>STUDENTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet5.xss">
+      <DependentUpon>STUDENTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet6.xsc">
+      <DependentUpon>STUDENTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet6.xss">
+      <DependentUpon>STUDENTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet7.xsc">
+      <DependentUpon>STUDENTDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet7.xss">
+      <DependentUpon>STUDENTDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet8.xsc">
+      <DependentUpon>STUDENTDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet8.xss">
+      <DependentUpon>STUDENTDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet9.xsc">
+      <DependentUpon>STUDENTDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="STUDENTDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STUDENTDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="STUDENTDataSet9.xss">
+      <DependentUpon>STUDENTDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet.xsc">
+      <DependentUpon>TeachingStaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TeachingStaffDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TeachingStaffDataSet.xss">
+      <DependentUpon>TeachingStaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet1.xsc">
+      <DependentUpon>TeachingStaffDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TeachingStaffDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TeachingStaffDataSet1.xss">
+      <DependentUpon>TeachingStaffDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet2.xsc">
+      <DependentUpon>TeachingStaffDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TeachingStaffDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TeachingStaffDataSet2.xss">
+      <DependentUpon>TeachingStaffDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet3.xsc">
+      <DependentUpon>TeachingStaffDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TeachingStaffDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TeachingStaffDataSet3.xss">
+      <DependentUpon>TeachingStaffDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet4.xsc">
+      <DependentUpon>TeachingStaffDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TeachingStaffDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TeachingStaffDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TeachingStaffDataSet4.xss">
+      <DependentUpon>TeachingStaffDataSet4.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="a.ico" />
+    <Content Include="NonTeachingStaff.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RESULT.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="STUDENT.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TeachingStaff.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
